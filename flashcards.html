@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        body {
+            background: url('{{ url_for('static', filename='flaskard.png') }}') no-repeat center center fixed;
+            background-size: cover;
+        }
+    </style>
+    <script>
+        let currentCardIndex = 0;
+        let flashcards = {{ flashcards|tojson }};
+        
+        function showFlashcard(index) {
+            const flashcard = flashcards[index];
+            document.getElementById('flashcard-front').innerText = flashcard.front;
+            document.getElementById('flashcard-back').innerText = flashcard.back;
+            document.getElementById('flashcard').classList.remove('flipped');
+            updateStatusBar();
+        }
+
+        function nextFlashcard() {
+            if (currentCardIndex < flashcards.length - 1) {
+                currentCardIndex++;
+                showFlashcard(currentCardIndex);
+            }
+        }
+
+        function previousFlashcard() {
+            if (currentCardIndex > 0) {
+                currentCardIndex--;
+                showFlashcard(currentCardIndex);
+            }
+        }
+
+        function flipCard() {
+            document.getElementById('flashcard').classList.toggle('flipped');
+        }
+
+        function updateStatusBar() {
+            const progress = ((currentCardIndex + 1) / flashcards.length) * 100;
+            document.getElementById('status-bar').style.width = progress + '%';
+            document.getElementById('status-text').innerText = `Card ${currentCardIndex + 1} of ${flashcards.length}`;
+        }
+
+        window.onload = function() {
+            showFlashcard(currentCardIndex);
+        }
+    </script>
+    <style>
+        .flashcard {
+            width: 300px;
+            height: 200px;
+            border: 1px solid #ccc;
+            margin: 20px;
+            perspective: 1000px;
+            background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .flashcard-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            border-radius: 10px;
+        }
+        .flashcard.flipped .flashcard-inner {
+            transform: rotateY(180deg);
+        }
+        .flashcard-front, .flashcard-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            padding: 20px;
+            box-sizing: border-box;
+            border-radius: 10px;
+        }
+        .flashcard-back {
+            transform: rotateY(180deg);
+            background-color: #4a90e2;
+            color: white;
+        }
+        button {
+            background-color: #4a90e2;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 10px;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #357ab8;
+        }
+        .status-bar-container {
+            width: 100%;
+            background-color: #ddd;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .status-bar {
+            width: 0;
+            height: 20px;
+            background-color: #4a90e2;
+            border-radius: 5px;
+            transition: width 0.3s ease;
+        }
+        .status-text {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Study Flashcards</h1>
+    <div class="flashcard" id="flashcard" onclick="flipCard()">
+        <div class="flashcard-inner">
+            <div class="flashcard-front" id="flashcard-front"></div>
+            <div class="flashcard-back" id="flashcard-back"></div>
+        </div>
+    </div>
+    <div class="status-bar-container">
+        <div class="status-bar" id="status-bar"></div>
+    </div>
+    <div class="status-text" id="status-text"></div>
+    <button onclick="previousFlashcard()">Back</button>
+    <button onclick="nextFlashcard()">Next</button>
+</body>
+</html>

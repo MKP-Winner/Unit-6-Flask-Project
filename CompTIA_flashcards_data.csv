@@ -1,0 +1,451 @@
+﻿Information Technology (IT) system,A system that processes stores and transfers information.
+IT networks,Networks that allow us to distribute and share information quickly.
+Computer,A system that manipulates data according to a set of instructions.
+Hardware,The devices and components that make up a computer system.
+Operating System (OS),A basic software environment established by the computer.
+Software applications,Programs such as word processors spreadsheet programs and payroll programs that can be installed within the OS.
+Central Processing Unit (CPU),Retrieves each instruction or data file from memory and processes it.
+Random Access Memory (RAM),Temporary storage.
+Transistors,Components that make up CPU and RAM.    
+Ones and Zeros,Represented as on and off in transistors.
+Server,Any computer providing services to other computers usually implying a powerful computer that supports multiple users simultaneously.
+Laptop computer,A computer that integrates the display system components and input/output devices within a single portable case.
+Original Equipment Manufacturers (OEM),Companies producing PCs and laptops.
+Smartphone,A device with roughly the same functionality as a personal computer that can be held in one hand.
+Internet of Things (IoT),A world in which many different types of things are embedded with processing and networking functionality.
+Thermostats,Devices that monitor and adjust HVAC controls from an app installed on your phone.
+Security systems,Systems that monitor and control alarms locks lighting and videophone entry systems remotely.
+IP cameras,Cameras often used for security.
+Home appliances,Devices that can check the contents of your refrigerator from your smartphone or start the washing machine cycle remotely.
+Streaming media,Content played through any smart speaker or TV connected to the home network.
+Ergonomics,The study of factors affecting the performance of people at work.
+Repetitive Strain Injury (RSI),A condition that occurs when the same task is carried out repeatedly for a long period causing symptoms like muscle pain and numbness.
+Power-On Self-Test (POST),A test performed by the computer to check that the main components work before loading the operating system.
+Shell,Provides an interface between the user and the computer allowing configuration of hardware and management of software applications.
+64-bit CPU,Can run either 64-bit operating systems and applications or a 32-bit operating system and applications.
+32-bit CPU,Cannot run 64-bit operating systems or applications.
+Workstation OS,An operating system that runs a traditional desktop PC or laptop such as Microsoft Windows or Linux.
+Commercial OS,An operating system that requires a purchased license to install and use.
+Open source,Software whose programming code is freely available.
+Embedded system,A computer or appliance designed for a very specific function.
+Firmware,Software that is not designed to be continually changed though it can support infrequent updates.
+Basic Input/Output System (BIOS),Provides industry standard firmware that operates the essential components of the PC.
+Unified Extensible Firmware Interface (UEFI),Provides support for 64-bit CPU operation at boot and better boot security.
+Virtualization,Allows multiple operating systems to be installed and run simultaneously on a single computer.
+Hypervisor,Manages the virtual machine environment and facilitates interaction with the host hardware.
+Type I hypervisor,Installed directly on the computer and interacts directly with its hardware.
+Type II hypervisor,Runs as a software application within a host operating system.
+Guest operating systems,Operating systems installed under the virtual environment.
+Troubleshooting,The process of problem solving involving identifying problems researching and implementing solutions.
+Troubleshooting model,A structured approach to solving problems including steps like identifying the problem and verifying system functionality.
+Notational systems,Systems used to represent values and quantities including decimal binary and hexadecimal.
+Decimal,A system based on expressing ten different numbers using digits in the range 0 to 9.
+Binary,A numbering system where each digit can express only two values in the range 0 to 1.
+Hexadecimal,A system used to express large numbers more efficiently often used in IPv6 addresses.
+Byte,The first multiple of bits consisting of eight bits.
+Double byte,A multiple of bits consisting of 16 bits.
+KiloByte (KB),1000 bytes (or 103 or 10*10*10 bytes). Small files are often measured in KB.
+MegaByte (MB),1000*1000 bytes (or 1000000 bytes). Many files would be measured in megabytes.
+GigaByte (GB),1000*1000*1000 bytes (1000000000 bytes). Gigabytes are usually used to talk about disk capacity.
+TeraByte (TB),1000 GB (1000000000000 bytes). Some individual disk units might be 1 or 2 terabytes but these units are usually used to describe large storage networks.
+PetaByte (PB),1000 TB or 1015 bytes (1000000000000000 bytes). The largest storage networks and cloud systems would have petabytes of capacity.
+KibiByte (KiB),1024 bytes (210 bytes).
+MebiByte (MiB),1024*1024 bytes (or 1048576 bytes).
+GibiByte (GiB),1024*1024*1024 bytes (1073741824 bytes).
+Kbps (or Kb/s),1000 bits per second. Older computer peripheral interfaces (or buses) and slow network links would be measured in Kbps.
+Mbps (or Mb/s),1000000 bits per second. Many internal computer interfaces have throughputs measured in Mbps.
+Gbps (or Gb/s),1000000000 bits per second. The latest PC bus standards and networks can support this higher level of throughput.
+Tbps (or Tb/s),1000000000000 bits per second. This sort of capacity is found in major telecommunications links between data centers cities and countries.
+Megahertz (MHz),1 million (1000000) cycles per second. Older PC bus interfaces and many types of network interface work at this slower signaling speed.
+Gigahertz (GHz),1000 million (1000000000) cycles per second. Modern CPUs and bus types plus fiber optic network equipment work at these much faster speeds.
+Integers,These are whole numbers. For example: 5 21 or 65536. An integer data type consumes 1 to 8 bytes of computer storage.
+Floating-point numbers,This type can support decimal fractions such as 4.1 or 26.4 or 5.62. A floating-point number (or just 'float') consumes between 4 and 8 bytes of storage.
+Boolean values,These are a special numeric data type indicating that something is either TRUE or FALSE (with a 1 or 0). They consume a single bit of storage.
+Character (char),A single textual character and can be a letter of the alphabet a symbol or indeed a numerical character. 1 byte of storage.
+String,A collection of text characters. There is no real limit on the amount of storage that can be used by a string.
+ASCII,Each number or character in a text file or string variable is represented by a seven-bit binary number. With seven bits of binary you can express 128 different values (0 through 127).
+Unicode,Unicode enables you to handle character data and express that data across platforms in a uniform way.
+Asset,Something of commercial value. Therefore it is important that you take steps necessary to protect this asset.
+Security control,A mechanism designed to protect an information asset or processing system.
+ROSI,The business case for investing in security is made by a calculation called Return on Security Investment (ROSI).
+Data exfiltration,When an attacker removes data from your network without authorization.
+Data breach,A similar circumstance but can occur whenever your network exposes private data publicly whether the data is actively stolen or not.
+Backup,Ensure that you maintain copies of your data and that these copies can be quickly and easily accessed when necessary.
+Access control,Your data might have a value to your business competitors. Therefore it makes sense to try to control access to stored data.
+Permissions,Most operating systems provide a number of methods with which you can assign permissions on data files to users and groups of users.
+Usage restrictions,You can use rights management software to control what users can do with data files.
+Data encryption,This means that data is encoded in some way that only a person with the correct key can read it.
+Firewalls,On a network can control how hosts and network applications are accessible to one another.
+High availability,It is often the case that temporary loss of access to data can lead to high costs for an organization.
+Intellectual Property (IP),The most valuable information asset that an organization owns.
+Copyright,Automatic legal protection granted to certain types of work indicating that the copyright holder owns the right to control the use of the work.
+Trademark,Protects its name and/or logo.
+Patent,Legal protection for some kind of invention.
+Digital product,One that is sold or distributed as binary computer data.
+Data,The raw values collected by the system.
+Information,Some level of summarization of the individual data points.
+Insights,Things that inform meaningful business decisions.
+Data capture and collection,Data points can be collected from many different sources.
+Data correlation,The ability of software to perform data correlation without much human intervention is being greatly boosted by the development of Artificial Intelligence (AI) and machine learning systems.
+Meaningful reporting,To inform human decision making at the insights layer the information identified by the analytics system must be presented in ways that humans can analyze and interpret.
+Applications (or apps),Software programs that let users do useful things with their computer such as create and edit documents browse websites send email watch videos or play games.
+Shareware,Software that you can install free of charge so that you can evaluate it for a limited period. If you decide to continue using the software after this period you must register it usually for a fee.
+Freeware,Software that is available free of charge.
+Productivity software,Refers to applications that help users complete typical office tasks. Such tasks might include writing a letter or report making a sales presentation or processing orders.
+Spreadsheet,Consists of a table containing rows columns and cells.
+Word processing,Applications that help users to write and edit documents.
+Presentation software,Enables users to create sophisticated slide shows. Pictures company logos graphs and text can be added to the slides together with a variety of animations.
+Visual diagramming software,Assists the creation of these by providing templates and shapes for different kinds of diagrams.
+Collaboration software,Multiple users can work together on the same file or project.
+Email software,An application that allows the user to compose and send messages and then receive messages from others.
+Personal Information Manager (PIM),Software provides features for storing and organizing information such as contacts and calendar events and appointments.
+Online workspace,One where a file is hosted on a network and users can sign in to get access to it.
+Remote Desktop,Allows a user to connect to a computer over a network.
+Instant Messaging (IM),Software that allows users to communicate in real time.
+Voice over Internet Protocol (VoIP),Packages voice communications as data packets transmits them over the network then reassembles the packets to provide two-way real-time voice communication.
+Video conferencing or Video Teleconferencing (VTC),Software that allows users to configure virtual meeting rooms with options for voice video and instant messaging.
+Telepresence,To refer to particularly sophisticated video conferencing solutions.
+Desktop Publishing (DTP),Similar to word processing but with more emphasis on the formatting and layout of documents than on editing the text.
+Computer Aided Design (CAD),Software that makes technical drawings and schematics easier to produce and revise.
+Project management,Involves breaking a project into a number of tasks and assigning responsibilities resources and timescales to ensure the completion of those tasks.
+Database packages,Enables the user to store organize and retrieve information.
+XML (eXtensible Markup Language) format,Increasingly important for data storage as it allows for a high level of integration between different types of systems.
+Programmers (or coders),Individuals who work with one or more programming languages to write code that is used as the basis for the applications that you use on your computing device.
+Program,A sequence of instructions for your computer to perform.
+Conditional statement,Means part of the code only executes when certain conditions are true or false.
+Variable,Contains a value that can change during the execution of the program.
+Constant,A specific identifier that contains a value that cannot be changed within the program.
+Identifier,Used in a program to access a program element such as a stored value class method or interface.
+Loops,Are similar to branches in as much as they deviate from the initial program path according to some sort of logic condition.
+Object-Oriented Programming (OOP),The idea is that creating recognizable things within the code and making them interact through defined methods makes the code easier to maintain and update.
+Attributes,Values and data types that define the object. The attributes are stored within the object as fields or private variables.
+Methods,Define what you can do to an object.
+Properties,Represent an alternative way of accessing a field publicly.
+Script,Generally targeted at completing a specific task whether that task is based within a web-based application or is used by a network administrator to perform a repetitive administrative task.
+Database,An organized collection of information.
+Creation,This step involves defining what information the database will store where it will be hosted and how it will be accessed by clients.
+Import/input,Once the database has been created it must be populated with data records. Records can either be input and updated manually usually using some type of form or data might be imported from another source or both.
+Storage (data persistence),Databases are often used with applications. While an application processes variables and other temporary data internally this information is lost when the application is terminated.
+Queries,It is possible in theory to read the information in each table manually but in order to view information efficiently a query is used to extract it.
+Reports,A query might return a large number of rows and be just as difficult to read as a table. A report is a means of formatting and summarizing the records returned by a query so that the information is easy to read and interpret.
+Flat file system,A flat file system might be useful for tasks such as simple order or sales databases used by a single person or small workgroup.
+Scalability,Scalability means being able to expand usage without increasing costs at the same rate.
+Access controls,Databases provide access controls to protect information from unauthorized disclosure and backup/replication tools to ensure that data can be recovered within seconds of it being committed.
+Relational database,A highly structured type of database. Information is organized in tables (known as relations).
+Primary key,This primary key is used to define the relationship between one table and another table in the database.
+Foreign key,When a primary key in one table is referenced in another table then in the secondary table that column is referred to as a foreign key.
+Schema,The structure of the database in terms of the fields defined in each table and the relations between primary and foreign keys.
+Unstructured data,Unstructured data provides no rigid formatting of the data. Images and text files Word documents and PowerPoint presentations are examples of unstructured data.
+Semi-structured data,The data lacks the structure of formal database architecture.
+Metadata,There is associated information called metadata that helps identify the data.
+Document database,A document database is an example of a semi-structured database. Rather than define tables and fields the database grows by adding documents to it.
+Key/value pair database,A means of storing the properties of objects without predetermining the fields used to define an object.
+Database interfaces,Database interfaces are the processes used to add/update information to and extract (or view) information from the database.
+Data Definition Language (DDL),DDL commands refer to SQL commands that add to or modify the structure of the database.
+Data Manipulation Language (DML),DML commands allow you to insert or update records and extract information from records for viewing (a query).
+Database access methods,Database access methods are the processes by which a user might run SQL commands on the database server or update or extract information using a form or application that encapsulates the SQL commands as graphical controls or tools.
+One-tier application architecture,If the application front-end and processing logic and the database engine are all hosted on the same computer the application architecture can be described as one-tier or standalone.
+Two-tier client-server application,A two-tier client-server application separates the database engine or backend or data layer from the presentation layer and the application layer or business logic.
+Three-tier application,In a three-tier application the presentation and application layers are also split. The presentation layer provides the client front-end and user interface and runs on the client machine.
+n-tier application architecture,An n-tier application architecture can be used to mean either a two-tier or three-tier application but another use is an application with a more complex architecture still.
+Fixed Disk,When the computer is turned off programs and data are stored on a Hard Disk Drive (HDD) or Solid State Drive (SSD).
+HDD,HDDs are based on a magnetic disk technology.
+SSD,SSDs use a type of transistor-based memory called flash memory and are much faster than HDDs/smaller lighter and don't spin.
+Graphics Processing Unit (GPU),Dedicated processor for images that changes rapidly/video/complicated 3D and texture effects/video games.
+Network Interface,Computers smartphones and tablets are almost always used as part of a computer network. They can use the network to share information locally and to access data over the Internet.
+Wired network,The Ethernet port in the computer is provided by a Network Interface Card (NIC).
+Wireless network,Most home networks support Wi-Fi radio networking so that computing devices do not have to be cabled to the Internet router to access the network.
+Motherboard,The motherboard is a Printed Circuit Board (PCB) with some built-in processors (the chipset) sockets and slots for upgradable components (CPU & RAM & adapter cards & disk drives) and wires (buses) to connect them together.
+Microprocessor,Programmable integrated circuit—a silicon chip embedded on a ceramic plate.
+Silicon chip,A wafer of purified silicon doped with a metal oxide typically copper or aluminum.
+Die,An area in which the doping process creates millions of transistors and signal pathways.
+ARM CPUs,CPUs and their chipsets for mobile phones/smartphones and tablets are often based on the ARM (Advanced RISC Machine) microarchitecture such as the Apple A Samsung Exynos and nVIDIA Tegra derivatives.
+RISC (Reduced Instruction Set Computing),These microarchitectures use simple instructions processed very quickly.
+RISC,Reduced Instruction Set Computing - These microarchitectures use simple instructions processed very quickly.
+CISC,Complex Instruction Set Computing - microarchitectures which use more powerful instructions but process each one more slowly.
+Control Unit,Fetches the next instruction in sequence from system memory to the pipeline.
+Arithmetic Logic Unit (ALU),Executes instructions passed to it by the control unit.
+Floating Point Unit (FPU),Executes floating-point instructions passed to it by the control unit.
+Register,A temporary storage area available to the different units within the CPU.
+Instruction Set,Defines a CPU as IBM PC compatible.
+x86,The original version created in 1978 designed for 16-bit CPUs.
+x86-32 or IA-32,The updated 32-bit version of the x86 instruction set introduced in 1985.
+32-bit systems,Limited to addressing up to 4 GB.
+64-bit CPUs,Can address 256 Terabytes (or more).
+Clock Speed,The number of instructions a CPU can process in one second.
+Front Side Bus,Interface between the CPU and system memory.
+Symmetric Multiprocessing (SMP),OS that can efficiently use processing resources available to run application processes.
+Dual-core CPU,Essentially two processors combined on the same die.
+Bus,Circuitry that connects the various microprocessors and other components on the motherboard.
+Address information,Where the data is located in memory.
+Timing signal,Synchronizes the way components communicate over the bus.
+Power,Electricity to run the component.
+System bus or FSB,Provides connections between the CPU and system memory.
+Expansion bus or Input/Output (I/O) bus,Provides connections between the CPU and add-on components.
+Heatsink,A block of metal with fins that improves cooling by convection.
+Passive cooling,Cooling that does not require extra energy (electricity) to work.
+Fan,Improves airflow and helps to dissipate heat.
+Active cooling,Cooling that requires power to run.
+Liquid-based cooling,A system of pumping water around the chassis for effective cooling.
+Bootstrapping,The process for the CPU to start processing instructions when powered on.
+BIOS,Provides industry standard program code to get essential components of the PC running.
+UEFI,Provides support for 64-bit CPU operation at boot and better boot security.
+Plug-and-Play,When a device is connected Windows can identify and install a driver automatically.
+Hot-swappable,Windows can detect and configure a device without requiring a restart.
+Type A USB,For connection to the host shaped like a flat rectangle.
+Type B USB,For connection to a device shaped like a square with a beveled top.
+USB 1.1,Speed of 12 Mbps.
+USB 2.0,Speed of 480 Mbps.
+USB 3.0,Speed of 5 Gbps.
+USB 3.1,Speed of 10 Gbps.
+Firewire 400,Maximum speed of 400 Mbps with 6-pins.
+Firewire 800,Maximum speed of 800 Mbps with 9-pins.
+VGA,Resolution of 640x480 &  16 colors & at 60 Hz.
+HDMI,Supports both video and audio with a 19-pin type A connector.
+DisplayPort,Developed by VESA with a 20-pin connector.
+Thunderbolt,Developed by Intel with Version 3 speed of 40 Gbps.
+DVI,High-quality digital interface designed for flat-panel display equipment.
+Bluetooth,Used for Personal Area Networks (PAN) with a maximum transfer rate of 3 Mbps for Bluetooth 2.0.
+Radio Frequency ID (RFID),Tagging and tracking devices with passive devices operating up to 25 meters.
+Near Field Communications (NFC),Contactless payments at data rates of 106 & 212 & and 424 Kbps.
+Network Interface Card (NIC),Allows the computer to join a wired network with other nearby computers.
+RJ-45,Ports used for LAN (Local Area Network).
+RJ-11,Ports connect to the DSL modem/router used to connect a home network to the Internet.
+Flat-screen Displays,Liquid Crystal Display (LCD) or flat-screen displays used by portable computers replacing old and bulky CRT units as the standard display type for desktops.
+Digital Projectors,Dominated by Digital Light Processing (DLP) developed by Texas Instruments and use HDMI & DVI & Thunderbolt & or VGA interfaces.
+Multimedia Ports and Devices,Ports used to play and record audio and video from different inputs and outputs.
+Audio Card,A computer's audio subsystem made up of a sound card to process audio signals and provide interfaces for connecting equipment.
+Digital Signal Processor (DSP),Processes data from the computer to output a signal to drive the speakers and processes audio input from a microphone.
+Speaker and Microphone Jacks,Microphone allows for audio input and recording while audio playback is achieved via speakers or headphones.
+Audio in (light blue),A low-level (1V) stereo signal supplied by most tape decks video players & tuners & CD players and so on.
+Microphone input (pink),Generally a mono analog input.
+Audio out (lime),A low-level (1V) analog stereo signal suitable for feeding into amplified speakers or headphones.
+Audio out (black),Signal for rear speakers in a surround sound system.
+Audio out (orange),Signal for the subwoofer in a surround sound system.
+Speaker Configurations,Sound cards supporting multiple output channels can provide various levels of playback from stereo to surround sound.
+Surround sound,Uses multiple speakers positioned around the listener to provide a cinematic audio experience.
+5.1 Digital System,Has three front (center left and right) speakers two rear (left and right) speakers and a subwoofer for bass sounds.
+7.1 system,Has two extra side speakers.
+Speaker system,Usually have controls for adjusting volume bass and treble plus optionally an equalizer (EQ) or preset sound effects.
+Webcams,Records video images using a digital sensor and usually features a microphone to record audio.
+Printer Types,Includes Laser Printers that fix toner to the page surface and Inkjet Printers used for good quality color output.
+PPM,Pages per minute a speed measurement of the printer's printing capability.
+Scanners and Cameras,Flatbed scanners are like photocopiers with the quality depending on its resolution.
+Optical Character Recognition (OCR),Software to convert a text image into a computer-editable text document.
+Multi-function Devices (MFD),May use a sheet-fed scanner rather than a flatbed one.
+Charge Coupled Device (CCD),Composed of picture elements (pixels) that generate an electrical charge in proportion to the intensity of light.
+System Memory,The main storage area for programs and data when the computer is running a type of volatile memory called Random Access Memory (RAM).
+Volatile,Data is only retained in the memory chips while there is a power source.
+Dynamic RAM (DRAM),Stores each data bit as an electrical charge within a single bit cell.
+Synchronous DRAM (SDRAM),Synchronized to the system bus with a 64-bit data bus delivering 64 bits of information per clock cycle.
+Double Data Rate SDRAM (DDR SDRAM),An updated type of SDRAM featuring 'double pumped' data transfers.
+Mass Storage Devices,Provides non-volatile storage where the data is preserved when the power is turned off.
+Hard Disk Drives (HDD),Data is encoded magnetically on specially coated platters accessed by drive heads.
+Revolutions per minute (RPM),Measures read/write speeds at which the disks can spin.
+Access Time,(measured in milliseconds) the delay that occurs as the read/write head locates a particular position on the drive.
+HDD Interfaces,Standards for the controller and bus connecting an internal hard disk to a PC including EIDE/PATA SATA and SCSI.
+Solid State Drives (SSD),Uses flash memory technology and can function as standalone units or hybrid drives.
+Optical Discs and Drives,Includes CDs DVDs and Blu-ray Discs which are storage formats for consumer multimedia.
+CD-R,Write Once Read Many optical disc type.
+Burning,Process of writing data to CD-R.
+Blu-ray Disc,High capacity disc for HD video storage.
+HD Resolution,1920x1080 pixels higher than standard definition.
+BD-XL,Specification for triple and quad-layer Blu-ray discs.
+Optical Drive,Device for reading/writing optical discs.
+Data Transfer Rate,Speed of data transfer from drive to computer.
+USB Drive,Removable flash memory device using USB connection.
+Memory Card,Storage device for digital cameras and smartphones.
+Partitioning,Dividing a hard disk into separate storage areas.
+FAT32,File system for removable drives 4 GB max file size.
+NTFS,File system supporting larger partitions and security.
+Compression,Reduces file size without losing data.
+Encryption,Protects data by encoding it during storage.
+Access Control List (ACL),Records user permissions for files and folders.
+Journaling,Logs changes to recover data after interruptions.
+Folders,Organizational units for files on storage drives.
+Root Folder,Top-level folder created when formatting a drive.
+Windows System Folders,Default folders created during Windows installation.
+Linux Directories,Folders in Linux using forward slash as delimiter.
+Unified File System,All devices represented as files in Linux.
+Navigation Pane,Quick access area for frequently used folders.
+OneDrive,Cloud storage linked to Microsoft account.
+Creating a Folder,Process of making a new folder in a system.
+Folder Naming Rules,Guidelines for valid folder names in Windows.
+Reserved Characters,Characters that cannot be used in folder names.
+Full Path Limit,Maximum length for file path is 260 characters.
+Full path to an object,The full path to an object (including any file name and extension) may not usually exceed 260 characters.
+Files,Are the containers for the data that is used and modified through the operating system and applications.
+Text data,Text data is human-readable.
+Binary data,Binary data can only be interpreted by a software application compatible with that file type.
+File Types and Extensions,Describes what type of file it is and is used by Windows to associate the file with an application.
+File extension,The extension is divided from the rest of the file name by a period.
+File extension convention,By convention extensions are three characters.
+Default file extension visibility,By default the extension is not shown to the user.
+Linux file handling,Linux (and Android) use file permissions rather than extensions to determine whether a file is executable.
+Full control permission,Allows the user to do anything with the object including change its permissions and its owner.
+Modify permission,Allows the user to do most things with an object but not to change its permissions or owner.
+Read/list/execute permission,Allow the user to view the contents of a file or folder or start a program.
+Write permission,Allows the user to read a file and change it or create a file within a folder but not to delete it.
+txt file format,A text-only file with no 'binary' file information linking the file to a particular software application.
+rtf file format,Rich Text Format is an early 'generic' file format for sharing documents between different word processing applications.
+odf file format,The Open Document Format is an XML-based specification with better support for the features of modern word processors than RTF.
+doc/docx file format,This format is the one used by Microsoft Word. The docx XML-based format was introduced in Word 2007.
+Excel file extensions,Microsoft's Excel spreadsheet software saves files with an xls or xlsx (Excel 2007 and up) file extension.
+PowerPoint file extensions,Microsoft's PowerPoint presentation software saves files with a ppt or pptx (PowerPoint 2007 and up) file extension.
+PDF,Adobe's Portable Document Format (PDF) - A file format for distributing documents.
+Lossy compression,A lossy compression method irreversibly discards some of the original data.
+Lossless compression,Lossless compression is fully reversible because no information is discarded.
+jpg/jpeg file format,This lossy compression format is the most widely used for photographic pictures.
+gif file format,This is an old lossless compression format that only supports up to 8 bits per pixel.
+tiff file format,This is a popular format for exchanging images between editing applications.
+png file format,This is a full-color (24-bit) lossless format designed to replace GIF.
+bmp file format,This is a Windows-only lossless format not widely used due to its lack of compatibility with other operating systems.
+mpg file format,This is an early MPEG (Motion Pictures Expert Group) standard for video files with lossy compression.
+mp4 file format,The MPEG-4 standard audio/video file format that acts as a container for audio and video media streams.
+flv file format,Another container file format designed to deliver Flash Video.
+wmv file format,A video container file format developed by Microsoft.
+avi file format,A legacy Windows-only video format with limited ongoing support.
+mp3 file format,Developed from MPEG this remains one of the most popular formats for distributing music.
+aac file format,Developed from MPEG as a successor to mp3 widely supported.
+m4a file format,This is an audio-only file format deriving from the MPEG-4 standards track.
+flac file format,This format achieves file size compression without discarding audio data.
+wav file format,This is an early Windows audio file format not widely supported by media players.
+Executable file,An executable file is one that contains program code capable of making changes to the computer system.
+exe file,This is the basic type of program file in Windows.
+msi file,This is a Windows Installer file used to install and uninstall software applications under Windows.
+app file,This is the equivalent of an exe file for macOS.
+bat/cmd/vbs/js/ps1,Contains a sequence of commands either from the operating system's command interpreter or from a scripting language.
+zip file format,This format was developed for the PKZIP utility but is now supported 'natively' by Windows Mac OS X and Linux.
+tar file format,This was originally a UNIX format for writing to magnetic tape but is still used with gzip compression.
+rar file format,This proprietary format is used by the WinRAR compression program.
+7z file format,This type of archive is created and opened using the open-source 7-Zip compression utility.
+gz file format,This type of archive is created and opened by the gzip utility freely available for UNIX and Linux computers.
+gz,This type of archive is created and opened by the gzip utility freely available for UNIX and Linux computers. A number of Windows third-party utilities can work with gzip-compressed files.
+iso,This is a file in one of the formats used by optical media. The main formats are ISO 9660 (used by CDs) and UDF (used by DVDs and Blu-Ray Discs). Many operating systems can mount an image file so that the contents can be read through the file browser.
+vhd/vmdk,These are disk image file formats used with Microsoft Hyper-V and VMware virtual machines respectively.
+dmg,This is a disk image file format used by Apple macOS.
+Network,Two or more computer systems linked together by some form of transmission medium that enables them to share information.
+Network clients,Are computers and software that allow users to request resources shared by and hosted on servers.
+Local Area Network (LAN),A network in a single location.
+Wide Area Networks (WAN),Networks in different geographic locations.
+Telecommunications companies or telcos,Companies that operate national telephone networks.
+Internet Service Providers (ISP),Companies that specialize in providing Internet access.
+Network endpoints,Can be referred to as nodes or hosts.
+Communications pathways,Are implemented using an adapter installed in the host to transmit and receive signals and network media between the interfaces to carry the signals.
+Wired data connections,Use cabling and either electrical signals over copper wire or light signals over fiber optic to connect nodes. Most local networks use a wired network standard called Ethernet to implement these links.
+Wireless (Wi-Fi) data connections,Use radio signals to transmit signals over the air. With Wi-Fi a node usually connects to an access point at a range of up to about 30m.
+Network protocol,Identifies each host on the network using a unique address.
+Packet,Wrapper for each data unit transmitted over the network.
+Packet switching,Introduces the ability for one computer to forward information to another.
+Router,A host capable of performing the forwarding function.
+Circuit,Any two computers wanting to communicate had to open a direct channel. If this circuit was broken the computers would stop communicating immediately.
+Link or Network Interface layer,Responsible for putting frames onto the physical network. This layer does not contain TCP/IP protocols as such.
+Frame,A unit in which data at the link layer is packaged.
+Internet layer,Encapsulates packets into Internet datagrams and deals with routing between different networks.
+Internet Protocol (IP),The main protocol in the TCP/IP suite is responsible for logical addressing and routing of packets between hosts and networks.
+Address Resolution Protocol (ARP),Used for hardware address resolution. Each host has a link or network interface layer address usually called the Media Access Control (MAC) address to identify it on the local physical network.
+Internet Control Message Protocol (ICMP),Sends messages and reports on errors regarding packet delivery.
+Transport layer,These protocols provide communication sessions between computers.
+Transport Control Protocol (TCP),Provides connection-oriented delivery. This means that the delivery is reliable and that packets are delivered in the correct sequence.
+User Datagram Protocol (UDP),Provides connectionless delivery - there is no guarantee that packets will arrive in the correct sequence.
+Application layer,The top level of the architecture contains protocols that provide the communications formats for exchanging data between hosts.
+IP Addresses,Used to logically identify each device (host) on a given network. A 32-bit binary value.
+Network prefix length or subnet mask,Each host must also be configured into a subnet mask in order to distinguish the network ID and host ID portions within an address.
+MAC Addresses,At the data link layer each host is identified by the address of its network interface. MAC Address is a 48-bit value expressed in hex notation.
+Routing,If the destination IP address is a local one (with the same network ID as the source) the host uses ARP messaging to discover the local destination host.
+Resolvers,Are software programs running on client computers.
+Hostname,Name assigned to an IP host max 256 characters.
+Fully Qualified Domain Name (FQDN),Combines hostname with domain information for identification.
+Uniform Resource Locator (URL),Specifies location of web server and resource.
+Protocol,Access method or service type in a URL.
+Host Location,IP address or FQDN representing web server.
+File Path,Directory and file location on the web server.
+HyperText Transfer Protocol (HTTP),Foundation of the web for client-server resource requests.
+TCP Port,Default port for HTTP connections is port 80.
+HyperText Markup Language (HTML),Plain text files with coded tags for web formatting.
+Secure Sockets Layer (SSL),Protocol for encrypting data between client and server.
+Transport Layer Security (TLS),Updated version of SSL latest is TLS 1.2.
+Digital Certificate,Proves server identity issued by Certificate Authority.
+HTTPS,Secure version of HTTP uses port 443.
+Email,Messaging system for text and binary file transmission.
+Multipurpose Internet Mail Extensions (MIME),Encoding standard for email attachments.
+Message Application Programming Interface (MAPI),Protocol for email client-server communication.
+Mail Exchanger (MX),Server responsible for receiving email messages.
+Post Office Protocol v3 (POP3),Downloads emails often deletes from server.
+Internet Message Access Protocol (IMAP),Supports permanent connections to the email server.
+Ethernet Adapter,Connects computer to cable modem or router.
+Switch,Connects multiple computers in an Ethernet LAN.
+Access Point (AP),Creates Wi-Fi network connects wired and wireless clients.
+Internet Router/Modem,Links clients to the Internet via WAN.
+Digital Subscriber Line (DSL),Internet over telephone line asymmetric speeds.
+Very High Bit Rate DSL (VDSL),Supports up to 52 Mbps downlink 16 Mbps uplink.
+Fiber to the Home (FTTH),Fiber cable directly to customer premises.
+Hybrid Fiber Coax (HFC),Combines fiber optic core with coaxial links.
+Data Over Cable Service Interface Specification (DOCSIS),Standard for cable Internet supports up to 1.2 Gbps.
+Satellite Systems,Provide wide coverage suffer from high latency.
+Cellular Data Connections,Radio transmissions for Internet access via cell phones.
+Transmitter,Connects phone to mobile and PSTN networks.
+Cellular Radio,Operates in 850 & 1900 & 900 & 1800 MHz bands.
+GSM,Global System for Mobile Communication standard.
+SIM Card,Subscriber Identity Module for GSM handsets.
+CDMA,Handset managed by provider not SIM.
+3G,Third generation of mobile telecommunications.
+GPRS,General Packet Radio Services 48 Kbps speed.
+EDGE,Enhanced Data Rates for GSM 3-4 times GPRS.
+HSPA+,3G standard with 168 Mbps download speed.
+EV-DO,CDMA2000 standard supporting 3.1 Mbps downlink.
+LTE,4G standard with theoretical 150 Mbps downlink.
+LTE-A,Aims for 300 Mbps downlink typical 40 Mbps.
+Radio Frequency,Provisioning wireless networks using Wi-Fi equipment.
+Wireless Networking,IEEE 802.11 standards for Wireless LANs.
+SSID,Service Set ID name for WLAN.
+Cipher,Process used to scramble messages.
+Key,Unique value for decrypting encrypted messages.
+WEP,Older flawed wireless security standard.
+WPA,Improves WEP security with TKIP mechanism.
+WPA2,Uses AES for stronger encryption than WPA.
+Pre-Shared Key,Wireless password converted to encryption key.
+Open Authentication,No client authentication required for access.
+Captive Portal,Enforces terms or payment for Wi-Fi access.
+Attenuation,Loss of signal strength over distance.
+Dynamic Rate Switching,Adjusts data rate based on signal quality.
+Malware,Malicious software designed to compromise systems.
+Virus,Malware designed to spread to other PCs.
+Trojan Horse,Legitimate app concealing malicious functions.
+Adware,Tracks user activity to display personalized ads.
+Spyware,Covertly tracks user actions and data.
+Symptoms of Infection,Pop-ups slow performance and redirection issues.
+Banner Ad,Third-party advertisement area on a website.
+Advert,An embedded advertisement that may host malicious content.
+Drive-by Download,Malicious code exploiting vulnerabilities during web browsing.
+Active Content,Dynamic web content like video and animations.
+Scripting,Code running on server or client to enhance functionality.
+Add-ons,Mini applications enhancing browser capabilities.
+Flash,Adobe's platform for interactive web applications.
+Silverlight,Microsoft's platform for rich internet applications.
+Java,Full-featured programming language for web applications.
+Client-side Scripting,Code running in the browser to modify web pages.
+Extensions,Browser features adding new functionalities.
+Plug-ins,Software enabling multimedia content playback in browsers.
+Themes,Custom visual styles for browser appearance.
+Cookies,Text files storing user session information.
+First-party Cookies,Cookies created by the website you visit.
+Third-party Cookies,Cookies created by external domains.
+Personally Identifiable Information (PII),Data that can identify an individual user.
+Pop-up Windows,Sub-windows appearing over the main browser window.
+Asymmetric Encryption,Uses public key for encryption private key for decryption.
+Certificate Authority (CA),Third-party validating server identities.
+Public Key Infrastructure (PKI),System for managing digital certificates.
+Firewall,Security system controlling network traffic access.
+Packet Filtering,Basic firewall method filtering network data packets.
+Stateful Inspection,Advanced firewall analyzing network packet contents.
+Hardware Firewall,Dedicated device with firewall functionality.
+Software Firewall,Application-based firewall installed on devices.
+Simple Host Firewall,Personal firewall protecting individual computers.
+Proxy Server,Intermediary server managing client requests to the internet.
+Direct Attached Storage,Storage directly connected to a computer.
+Peer-to-Peer,Network model where workstations share resources directly.
+Network Attached Storage (NAS),Storage device connected to a network for file sharing.
+Network Printer Sharing,Sharing a printer over a network.
+Windows Printer Sharing,Sharing locally installed printers via Windows settings.
+Hardware Print Server,Device allowing networked printer connections without a PC.

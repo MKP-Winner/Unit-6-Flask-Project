@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flaskards</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        body {
+            background: url('{{ url_for('static', filename='flaskard.png') }}') no-repeat center center fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flaskards</h1>
+
+    <!-- Navbar -->
+    <div id="navbar">
+        <form method="GET" action="/unit">
+            <button type="submit" class="nav-btn">Let's study!</button>
+        </form>
+        <form method="GET" action="/about">
+            <button type="submit" class="nav-btn">About</button>   
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+﻿Module,A file containing Python definitions and statements.
+Namespace,A space where names exist without conflict.
+AttributeError,Raised if module lacks the specified function.
+Import Statement,Used to include modules in Python code.
+sys Module,Provides access to system-specific parameters and functions.
+math Module,Includes mathematical functions and constants.
+ceil(),Rounds a number up to the nearest integer.
+floor(),Rounds a number down to the nearest integer.
+trunc(),"Removes decimal part, returning the integer."
+factorial(),Calculates the product of all positive integers up to n.
+sqrt(),Returns the square root of a number.
+hypot(),Calculates the hypotenuse of a right triangle.
+random Module,Generates random numbers and selections.
+random(),Returns a random float between 0 and 1.
+seed(),Sets the seed for random number generation.
+choice(),Selects a random element from a list.
+sample(),Returns unique random elements from a list.
+ValueError,Raised when an operation receives an invalid value.
+platform Module,Provides information about the underlying platform.
+platform(),Identifies the underlying platform and version.
+machine(),Returns the generic name of the processor.
+processor(),Returns the actual name of the processor.
+system(),Returns the name of the operating system.
+python_implementation(),Returns the name of the Python implementation.
+python_version_tuple(),Returns the Python version as a tuple.
+version(),Returns the system's release version as a string.
+Private Variables,Variables accessible only to their creator.
+sys.path,List of directories Python checks for modules.
+Absolute Path,Full path starting from the hard drive label.
+Relative Path,Path relative to the current directory.
+Package,Container for organizing related modules.
+__init__.py,File that initializes a Python package.
+String,"A text value in Python, enclosed in quotes."
+Immutable,Strings cannot be changed after creation.
+Indexing,Accessing a character using its position.
+Slicing,Extracting a substring from a string.
+Iterating,Looping through each character in a string.
+Character Encoding,Representation of characters as unique numbers.
+ASCII,Standard encoding for 256 characters.
+Code Points,Numbers representing specific characters in ASCII.
+Byte,"A unit of digital information, 8 bits."
+Internationalisation (I18n),Adapting software for multiple languages.
+Unicode,Encoding standard for all characters globally.
+UCS,"Universal Character Set, uses 32 bits per character."
+UTF-8,Variable-length encoding for Unicode characters.
+Single Line String,A string that fits in one line.
+Multi Line String,A string that spans multiple lines.
+Empty String,A string with no characters.
+Control Characters,ASCII codes less than 32 for formatting.
+ord(c),Returns the code point of a character.
+chr(i),Returns the character for a given code point.
+String Concatenation,Combining two strings using '+=' operator.
+String Multiplication,Repeating a string using '*=' operator.
+List Comprehensions,Compact way to create lists using loops.
+Lambda Function,Anonymous function defined with 'lambda' keyword.
+Map(),Applies a function to all items in a list.
+Filter(),Filters elements based on a condition.
+Sorted(),Returns a sorted list from the provided iterable.
+Max(),Returns the largest item in an iterable.
+Closures,Functions that remember values from outer functions.
+Free variables,Variables still accessible in a closure.
+Closure,Function retaining access to its outer scope.
+Outer function,Function that defines an inner function.
+Inner function,Function defined within another function.
+File handling,Managing file input and output operations.
+readlines(),Reads file contents line by line into a list.
+readline(),Reads file contents one line at a time.
+write(),Writes a message to a text file.
+File modes,Specifies how a file is opened.
+'r' mode,Open file for reading.
+'w' mode,"Open file for writing, creates if not exists."
+'x' mode,Open file for exclusive creation.
+'a' mode,Open file for appending data.
+sys.stdin,Standard input stream in Python.
+sys.stdout,Standard output stream in Python.
+sys.stderr,Standard error stream in Python.
+Exceptions,Events disrupting normal code execution.
+Assert function,Checks conditions crucial for execution.
+BaseException,Top class for all exceptions.
+ArithmeticError,Errors during mathematical evaluations.
+LookupError,Errors from improper data aggregate use.
+TypeError,Errors from misuse of argument types.
+ImportError,Errors from invalid import directives.
+AssertionError,Raised when assert instruction fails.
+FileNotFoundError,Raised when opening a non-existent file.
+Classes,Templates for creating objects.
+Objects,Structures containing data and functions.
+Properties,Data pieces within objects.
+String methods,Built-in functions for string manipulation.
+string.index(),Returns index of first occurrence of substring.
+string.count(),Counts occurrences of a substring.
+string.capitalize(),Capitalizes first character of string.
+string.center(),Centers string within specified width.
+string.startswith(),Checks if string starts with specified substring.
+string.find(),"Returns index of substring, -1 if not found."
+string.isalnum(),Checks if string contains only letters and digits.
+Encapsulation,Bundling data and methods together.
+Polymorphism,Classes taking different forms.
+Inheritance,Mechanism to create new classes from existing.
+Method Resolution Order,Order of searching for methods in classes.
